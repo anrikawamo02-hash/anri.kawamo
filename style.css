@@ -96,7 +96,7 @@ a {
 .topbar {
   width: 100%;
   background: #DDEEFF;              /* 1ページ目と同じ水色 */
-  padding: 8px 20px 8px;
+  padding: 4px 20px 2px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
@@ -106,7 +106,7 @@ a {
   justify-content: space-between;
 
   box-sizing: border-box;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 /* 左：戻るボタン（高さが増えないように） */
