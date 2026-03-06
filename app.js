@@ -110,7 +110,7 @@
 
     return `
       <a class="room-card" href="swipe.html?room=${encodeURIComponent(roomKey)}&cat=${encodeURIComponent(catKey)}">
-        <div class="cat">
+        <div class="room-card-text">
           <div class="icon">${icon || '🛏️'}</div>
           <div>
             <div class="jp">${jp}</div>
