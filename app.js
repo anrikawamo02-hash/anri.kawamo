@@ -109,17 +109,19 @@
       : '';
 
     return `
-      <a class="room-card" href="swipe.html?room=${encodeURIComponent(roomKey)}&cat=${encodeURIComponent(catKey)}">
-        <div class="room-card-text">
-          <div class="room-card-icon">${icon || '🛏'}</div>
-          <div>
-            <div class="room-card-title-ja">${jp}</div>
-            <div class="room-card-title-en">${en}</div>
-            ${noteHtml}
-          </div>
-        </div>
-        <div class="chev">›</div>
-      </a>`;
+<a class="room-card" href="swipe.html?room=${encodeURIComponent(roomKey)}&cat=${encodeURIComponent(catKey)}">
+
+  <div class="room-card-icon">${icon || '🛏'}</div>
+
+  <div class="room-card-text">
+    <div class="room-card-title-ja">${jp}</div>
+    <div class="room-card-title-en">${en}</div>
+    ${noteHtml}
+  </div>
+
+  <div class="chev"></div>
+
+</a>`;
   }
 
   function initCategoryPage() {
