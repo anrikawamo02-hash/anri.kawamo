@@ -109,7 +109,7 @@
       : '';
 
     return `
-      <a class="btn" href="swipe.html?room=${encodeURIComponent(roomKey)}&cat=${encodeURIComponent(catKey)}">
+      <a class="room-card" href="swipe.html?room=${encodeURIComponent(roomKey)}&cat=${encodeURIComponent(catKey)}">
         <div class="cat">
           <div class="icon">${icon || '🛏️'}</div>
           <div>
