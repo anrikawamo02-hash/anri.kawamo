@@ -141,15 +141,15 @@ a {
 
 /* 右：カニ画像 */
 .header-crab {
-width: 70px;
+width: 60px;
 height: auto;
 align-self: center;
 flex-shrink: 0;
 }
 /* 右スペース（カニ画像の空白確保） */
 .header-right {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 /* =========================
    2ページ目（category）だけに効かせる
