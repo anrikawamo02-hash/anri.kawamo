@@ -124,7 +124,7 @@
 
   function initCategoryPage() {
     const info = ROOM_LABELS[room] || ROOM_LABELS.rg12;
-    setText('cat_title', `${info.jp}｜カテゴリ`);
+    setText('cat_title', `カテゴリ`);
     setText('cat_sub', 'Categories');
     setHref('back_to_index', 'index.html');
 
