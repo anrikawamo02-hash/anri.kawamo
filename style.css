@@ -111,7 +111,7 @@ a {
 
 /* 左：戻るボタン（高さが増えないように） */
 .back {
-  font-size: 40px;
+  font-size: 36px;
   line-height: 1;
   text-decoration: none;
   color: #555;
