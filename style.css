@@ -96,7 +96,7 @@ a {
 .topbar {
   width: 100%;
   background: #DDEEFF;              /* 1ページ目と同じ水色 */
-  padding: 10px 20px 10px;
+  padding: 8px 20px 8px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
@@ -111,7 +111,7 @@ a {
 
 /* 左：戻るボタン（高さが増えないように） */
 .back {
-  font-size: 36px;
+  font-size: 34px;
   line-height: 1;
   text-decoration: none;
   color: #555;
