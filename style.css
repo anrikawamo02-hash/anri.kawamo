@@ -158,9 +158,9 @@ flex-shrink: 0;
 
 .page-category .room-card{
   width: 80%;
-  margin: 0 auto 25px;
+  margin: 0 auto 16px;
   border-radius: 24px;
-  padding:20px;
+  padding:12px 16px;
 }
 /* ===== 2ページ目 icon配置 ===== */
 
@@ -174,7 +174,7 @@ flex-shrink: 0;
   text-align:left;
 }
 .page-category .room-card-icon{
-  font-size:28px;
+  font-size:24px;
   width:48px;
   display:flex;
   align-items:center;
@@ -183,4 +183,17 @@ flex-shrink: 0;
 .page-category .room-card-text{
   display:flex;
   flex-direction:column;
+  gap:2px;
+}
+.page-category .group-note-jp,
+.page-category .group-note-en{
+  line-height:1.2;
+  margin-top:4px;
+}
+.page-category .room-card-title-ja{
+  margin:0;
+}
+
+.page-category .room-card-title-en{
+  margin:0;
 }
