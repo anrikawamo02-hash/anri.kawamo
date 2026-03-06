@@ -96,7 +96,7 @@ a {
 .topbar {
   width: 100%;
   background: #DDEEFF;              /* 1ページ目と同じ水色 */
-  padding: 4px 20px 2px;
+  padding: 1px 20px 1px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
@@ -106,7 +106,7 @@ a {
   justify-content: space-between;
 
   box-sizing: border-box;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 /* 左：戻るボタン（高さが増えないように） */
@@ -128,7 +128,7 @@ a {
 }
 
 .header-title-ja {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   color: #333;
 }
