@@ -124,10 +124,11 @@ a {
   flex-direction: column;
   text-align: center;
   flex: 1;
+  align-items: center;
 }
 
 .header-title-ja {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
   color: #333;
 }
@@ -135,13 +136,15 @@ a {
 .header-title-en {
   font-size: 16px;
   color: #777;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 /* 右：カニ画像 */
 .header-crab {
-  width: 60px;
-  height: auto;
+width: 60px;
+height: auto;
+align-self: center;
+flex-shrink: 0;
 }
 /* 右スペース（カニ画像の空白確保） */
 .header-right {
