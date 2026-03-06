@@ -113,8 +113,8 @@
         <div class="room-card-text">
           <div class="room-card-icon">${icon || '🛏'}</div>
           <div>
-            <div class="jp">${jp}</div>
-            <div class="en">${en}</div>
+            <div class="room-card-title-ja">${jp}</div>
+            <div class="room-card-title-en">${en}</div>
             ${noteHtml}
           </div>
         </div>
