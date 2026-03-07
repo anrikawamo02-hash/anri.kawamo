@@ -85,7 +85,7 @@
     rg12: ['main12'],
     rg3: ['main3'],
     rg4: ['main4'],
-    rg56: ['main56'],
+    rg56: ['main56','main56'],
     rg78: ['main7', 'main8'],
     rg910: ['main9_10_54'],
     rg9_10_54: ['main9_10_54'],
