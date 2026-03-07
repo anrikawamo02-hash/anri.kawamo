@@ -198,3 +198,14 @@ flex-shrink: 0;
 .page-category .room-card-title-en{
   margin:0;
 }
+/* ===== Bレイアウト微調整 ===== */
+
+.page-category .room-card-title-ja,
+.page-category .room-card-title-en{
+  text-align:center;
+}
+
+.page-category .group-note-jp,
+.page-category .group-note-en{
+  text-align:left;
+}
