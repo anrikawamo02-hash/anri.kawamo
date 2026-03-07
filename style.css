@@ -204,8 +204,3 @@ flex-shrink: 0;
 .page-category .room-card-title-en{
   text-align:center;
 }
-
-.page-category .group-note-jp,
-.page-category .group-note-en{
-  text-align:left;
-}
