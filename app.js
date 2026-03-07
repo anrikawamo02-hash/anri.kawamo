@@ -87,6 +87,7 @@
     rg4: ['main4'],
     rg56: ['main56'],
     rg78: ['main7', 'main8'],
+    rg910: ['main9_10_54'],
     rg9_10_54: ['main9_10_54'],
     rg9_10_11: ['main9', 'main10', 'main11']
   };
