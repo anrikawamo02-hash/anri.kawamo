@@ -167,7 +167,7 @@ flex-shrink: 0;
 .page-category .room-card{
   display:flex !important;
   flex-direction: row !important;
-  align-items:flex-start;
+  align-items:center;
 }
 .page-category .room-card-title-ja,
 .page-category .room-card-title-en{
