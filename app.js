@@ -18,8 +18,8 @@
     rg9_10_11: { jp: '9・10・11号室', en: 'Rooms 9–11 (Floors 3–2)' }
   };
 
-  const SAME_TYPE_NOTE_JP = '🌟同タイプのお部屋は1つにまとめています';
-  const SAME_TYPE_NOTE_EN = '🌟Rooms of the same type are grouped into one listing.';
+  const SAME_TYPE_NOTE_JP = '';
+const SAME_TYPE_NOTE_EN = '';
 
   const CATEGORY_META = {
     kitchen: { jp: 'キッチン', en: 'Kitchen', prefix: 'Kitchen', icon: '🍳' },
