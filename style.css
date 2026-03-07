@@ -204,3 +204,12 @@ flex-shrink: 0;
 .page-category .room-card-title-en{
   text-align:center;
 }
+/* ===== 2ページ目フォント調整 ===== */
+
+.page-category .room-card-title-ja{
+font-size:25px;
+}
+
+.page-category .room-card-title-en{
+font-size:18px;
+}
