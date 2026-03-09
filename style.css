@@ -128,7 +128,7 @@ a {
 }
 
 .header-title-ja {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   color: #333;
 }
@@ -141,14 +141,14 @@ a {
 
 /* 右：カニ画像 */
 .header-crab {
-width: 60px;
+width: 70px;
 height: auto;
 align-self: center;
 flex-shrink: 0;
 }
 /* 右スペース（カニ画像の空白確保） */
 .header-right {
-    width: 60px;
+    width: 70px;
     height: 60px;
 }
 /* =========================
