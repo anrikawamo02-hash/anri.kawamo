@@ -159,9 +159,12 @@ flex-shrink: 0;
 
 .page-category .room-card{
   width: 80%;
-  margin: 35px auto 4px;
+  margin: 8px auto 4px;
   border-radius: 24px;
   padding:12px 16px;
+}
+.page-category #main_dynamic .room-card:first-of-type{
+  margin-top: 40px;
 }
 /* ===== 2ページ目 icon配置 ===== */
 
