@@ -192,11 +192,11 @@
 <script>
 document.querySelectorAll('.room-card').forEach(card => {
     card.addEventListener('mousedown', () => {
-        card.classList.add('pressing');
+        card.classList.add('is-pressing');
     });
     card.addEventListener('mouseup', () => {
         setTimeout(() => {
-            card.classList.remove('pressing');
+            card.classList.remove('is-pressing');
         }, 120); // ← 戻りの自然さを作る遅延
     });
 });
