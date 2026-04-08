@@ -244,10 +244,13 @@ font-size:16px;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
 }
-
 .slide{
-  width: 100%;
   min-width: 100%;
+  min-height: 260px;
   flex: 0 0 100%;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
 }
