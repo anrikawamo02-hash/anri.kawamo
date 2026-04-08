@@ -251,7 +251,8 @@ font-size:16px;
 }
 
 .slide{
+  width: 100%;
   min-width: 100%;
-  flex-shrink: 0;
+  flex: 0 0 100%;
   scroll-snap-align: start;
 }
