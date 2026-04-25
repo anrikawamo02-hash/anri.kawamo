@@ -89,7 +89,7 @@ const SAME_TYPE_NOTE_EN = '';
     rg78: ['main7', 'main8'],
     rg910: ['main9_10_54'],
     rg9_10_54: ['main9_10_54'],
-    rg9_10_11: ['main9', 'main10', 'main11']
+    rg9_10_11: ['main9_10', 'main11']
   };
 
   const byId = (id) => document.getElementById(id);
