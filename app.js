@@ -160,6 +160,32 @@ const SAME_TYPE_NOTE_EN = '';
       });
 
       mainWrap.innerHTML = html.join('');
+      
+      mainWrap.querySelectorAll('.room-card').forEach(card => {
+  card.addEventListener('mousedown', () => {
+    card.classList.add('is-pressing');
+  });
+
+  card.addEventListener('mouseup', () => {
+    setTimeout(() => {
+      card.classList.remove('is-pressing');
+    }, 120);
+  });
+
+  card.addEventListener('mouseleave', () => {
+    card.classList.remove('is-pressing');
+  });
+
+  card.addEventListener('touchstart', () => {
+    card.classList.add('is-pressing');
+  });
+
+  card.addEventListener('touchend', () => {
+    setTimeout(() => {
+      card.classList.remove('is-pressing');
+    }, 120);
+  });
+});
     }
 
     BASE_CATS.forEach((key) => {
