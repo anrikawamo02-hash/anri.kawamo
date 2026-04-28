@@ -162,6 +162,18 @@ flex-shrink: 0;
   margin: 24px auto 14px;
   border-radius: 24px;
   padding:12px 16px;
+
+  box-shadow:
+    0px 22px 45px rgba(0,0,0,0.25),
+    0px 12px 24px rgba(0,0,0,0.15);
+  transform: translateY(-22px);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.page-category .room-card.is-pressing {
+  transform: translateY(18px);
+  box-shadow:
+    0px 4px 12px rgba(0, 0, 0, 0.15),
+    0px 2px 6px rgba(0, 0, 0, 0.10);
 }
 .page-category #main_dynamic .room-card:first-of-type{
   margin-top: 40px;
